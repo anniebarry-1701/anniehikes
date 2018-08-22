@@ -1,0 +1,40 @@
+/* 
+div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-width: 300px;
+}
+
+*/ 
+
+/* 
+header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer {
+	align-items: flex-end;
+}
+*/ 
+/* i'm not sure i need the above lines of footer flex-end code. */
+
+/* This section is needed for the map to display */ 
+#map {
+	height: 100%;
+	margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+Bootstrap documentation says box-sizing is needed for google maps api to function correctly, but i did not see a difference
+bs-box-override {
+	box-sizing: content-box;
+}
+/* 
