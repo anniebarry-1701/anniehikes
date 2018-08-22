@@ -1,3 +1,26 @@
+/* This section is needed for the map to display */
+#map {
+	height: 60%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* This section is for the main body & page content */
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.map_caption {
+	width: 80%;
+	margin: 0 auto;
+}
+
 /* 
 div {
 	display: flex;
@@ -20,21 +43,13 @@ footer {
 */ 
 /* i'm not sure i need the above lines of footer flex-end code. */
 
-/* This section is needed for the map to display */ 
-#map {
-	height: 100%;
-	margin: 0;
-}
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+/* Bootstrap documentation says box-sizing 
+	is needed for google maps api to function correctly, 
+	but i did not see a difference
 
-/* 
-Bootstrap documentation says box-sizing is needed for google maps api to function correctly, but i did not see a difference
 bs-box-override {
 	box-sizing: content-box;
 }
+
 /* 

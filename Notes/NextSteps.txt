@@ -1,0 +1,6 @@
+Next Steps
+
+1. use bootstrap layout template to optimize page layout content
+2. Create Image folder and add images
+3. build image carousel beneath "repeat"
+4. Create gallery page of images
