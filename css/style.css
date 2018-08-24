@@ -21,6 +21,10 @@ main {
 	margin: 0 auto;
 }
 
+img {
+	width:100%;
+}
+
 /* 
 div {
 	display: flex;
