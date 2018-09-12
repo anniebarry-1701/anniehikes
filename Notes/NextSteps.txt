@@ -1,6 +1,13 @@
 Next Steps
 
-1. use bootstrap layout template to optimize page layout content
-2. Create Image folder and add images
+1. add col-lg to all html elements under row to fix element overlap
+2. Fix desktop nav bar bug
 3. build image carousel beneath "repeat"
 4. Create gallery page of images
+5. Create Image folder and add images
+
+
+Done
+
+9/11/18 - use bootstrap layout template (css grid) to optimize page layout content. Created unique layout experience for XL (deskop) and <L (mobile) breakpoints.
+9/11/18 - Fix mobile layout overlap
